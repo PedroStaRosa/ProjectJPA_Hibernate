@@ -16,7 +16,7 @@ public class App {
 
 		// menu();
 		
-		Conta c = new Conta(1243,100.00,500.00);
+		Conta c = new Conta(123,100.00,5009.00);
 		ContaDAOImple contaDAO = new ContaDAOImple();
 		contaDAO.salvar(c);
 		//System.out.println(conta1.toString());
