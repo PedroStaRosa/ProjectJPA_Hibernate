@@ -7,23 +7,24 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/persistence         http://java.s
     <!-- Implementação do JPA -->
     <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
     <!-- Lista de entidades -->
-    <class>br.com.model.bean.Categoria</class>
+    <class>br.com.model.Conta</class>
     <properties>
       <!-- Propriedades JDBC PC_CASA-->
     
-    <!-- 
+   
        <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/db_hibernate?serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/hibernate_localhost?serverTimezone=UTC"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.password" value="root"/>
-    -->   
-      
-     <!-- PROPRIEDADES JDBC BANCO REMOTO  5FFAL5Yitl-->
+       
+       
+     <!-- PROPRIEDADES JDBC BANCO REMOTO  User: ZSABF90WX9 Senha: 5FFAL5Yitl -->
+     <!-- 
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://remotemysql.com:3306/ZSABF90WX9?serverTimezone=UTC"/>
       <property name="javax.persistence.jdbc.user" value="ZSABF90WX9"/>
       <property name="javax.persistence.jdbc.password" value="5FFAL5Yitl"/>
-     
+     -->
      
      
       <!-- Configurações específicas do Hibernate -->
